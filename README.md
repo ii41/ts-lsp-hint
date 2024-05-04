@@ -76,7 +76,7 @@ It's false by default. Makes sense, since `tsc` doesn't complain about our code
 when run without this option used. Then why do I still get it with an empty
 `tsconfig.json`?
 
-If we try to explicit disable this via `tsconfig.json`, we still get this hint.
+If we try to explicitly disable this via `tsconfig.json`, we still get this hint.
 After all, disabling something that is off by default doesn't change anything.
 
 In addition, `// @ts-ignore` doesn't turn off the hint either.
